@@ -1,0 +1,73 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-image: url("assets/forma1.svg"), url("assets/forma2.svg");
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom 10px left -80px, top 70px right -80px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.logo {
+    margin-left: 120px;
+}
+
+#menu {
+    margin-right: 120px;
+}
+
+.navbar {
+    color: #242424;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.cafe {
+    width: 171.5px;
+    height: 121.8px;
+    margin-right: 50px;
+}
+
+.division {
+    width: 826.6px;
+}
