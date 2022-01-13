@@ -1,5 +1,5 @@
 body {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Nunito', sans-serif;
     background-image: url("assets/forma1.svg"), url("assets/forma2.svg");
     background-size: 30%;
     background-repeat: no-repeat;
@@ -13,7 +13,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin-top: 15px;
-    margin-bottom: 90px;
+    margin-bottom: 60px;
     padding-bottom: 25px;
     border-bottom: 1px solid #ebebeb;
 }
@@ -23,7 +23,6 @@ nav {
 }
 
 #menu {
-    display: flex;
     margin-right: 120px;
 }
 
@@ -44,29 +43,4 @@ main {
 .title {
     font-size: 50px;
     margin-bottom: 40px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.NamesForms {
-    display: flex;
-}
-
-.form-floating {
-    margin: 10px;
-
-}
-
-.btn {
-    width: 520.667px;
-    height: 40px;
-    background-color: #FCA60F !important;
-    color: white !important;
-    text-decoration: none;
-    border-radius: 2px;
-    border-color: none;
 }
