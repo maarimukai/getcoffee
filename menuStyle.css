@@ -30,7 +30,8 @@ nav {
     color: #242424;
     font-size: 20px;
     text-decoration: none;
-    margin-left: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 main {
@@ -41,7 +42,8 @@ main {
 }
 
 .title {
-    font-size: 50px;
+    font-size: 4rem;
+    margin-top: 0;
     margin-bottom: 40px;
 }
 
@@ -63,11 +65,75 @@ h3 {
 }
 
 .cafe {
-    width: 171.5px;
-    height: 121.8px;
+    width: 181.35px;
+    height: 136.65px;
     margin-right: 50px;
 }
 
 .division {
-    width: 826.6px;
+    width: 60%;
+}
+
+/* mobile */
+@media (max-width: 480px) {
+    body {
+        background-size: 70%, 70%;
+        background-position: top 130px left -130px, bottom 40px right -120px;
+    }
+    
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 10px;
+    }
+    
+    #menu {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .navbar{
+        font-size: 15px;
+    }
+    
+    .title {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    
+    .options {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    h1 {
+        font-size: 1.7rem;
+    }
+    
+    h3 {
+        font-size: 0.9rem;
+    }
+
+    p {
+        font-size: 12px;
+    }
+    
+    .cafe {
+        width: 120.9px;
+        height: 91.1px;
+        margin-right: 50px;
+    }
+    
+    .division {
+        width: 95%;
+    }
 }

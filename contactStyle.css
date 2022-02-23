@@ -13,7 +13,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin-top: 15px;
-    margin-bottom: 90px;
+    margin-bottom: 60px;
     padding-bottom: 25px;
     border-bottom: 1px solid #ebebeb;
 }
@@ -31,7 +31,8 @@ nav {
     color: #242424;
     font-size: 20px;
     text-decoration: none;
-    margin-left: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 main {
@@ -42,7 +43,7 @@ main {
 }
 
 .title {
-    font-size: 50px;
+    font-size: 4rem;
     margin-bottom: 40px;
 }
 
@@ -58,15 +59,68 @@ form {
 
 .form-floating {
     margin: 10px;
-
 }
 
 .btn {
-    width: 510.667px;
+    width: 52vw;
     height: 40px;
     background-color: #FCA60F !important;
     color: white !important;
     text-decoration: none;
     border-radius: 2px;
     border-color: none;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* mobile */
+@media (max-width: 480px) {
+    body {
+        background-size: 70%, 70%;
+        background-position: top 130px left -130px, bottom 40px right -120px;
+    }
+    
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 10px;
+    }
+    
+    #menu {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .navbar{
+        font-size: 15px;
+    }
+
+    .title {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    .NamesForms {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-control {
+        width: 80vw !important;
+    }
+    
+    .btn {
+        width: 80vw !important;
+        margin-top: 1rem;
+    }
+
 }
