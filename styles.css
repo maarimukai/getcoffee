@@ -1,10 +1,10 @@
 body {
     font-family: 'Nunito', sans-serif;
     background-image: url("assets/forma1.svg"), url("assets/forma2.svg");
-    background-size: 40%;
+    background-size: 30%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: bottom 10px left -120px, top 70px right -120px;
+    background-position: bottom 20px left -120px, top 70px right -120px;
 }
 
 nav {
