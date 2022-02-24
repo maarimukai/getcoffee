@@ -55,14 +55,19 @@ form {
 
 .NamesForms {
     display: flex;
+    width: 500px;
 }
 
 .form-floating {
     margin: 10px;
 }
 
+.form-messege, .form-email {
+    width: 500px;
+}
+
 .btn {
-    width: 37vw;
+    width: 500px;
     height: 40px;
     background-color: #FCA60F !important;
     color: white !important;
