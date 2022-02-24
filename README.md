@@ -1,5 +1,5 @@
-<h1 align="center">GET COFFEE - LANDING PAGE/h1>
-<h3 align="center">Landing page de uma Cafeteria online
+<h1 align="center">GET COFFEE - LANDING PAGE</h1>
+<h3 align="center">Landing page de uma Cafeteria online</h3>
 <br>
 <br>
 <br>
