@@ -51,10 +51,12 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 36vw;
 }
 
 .NamesForms {
     display: flex;
+    width: 37vw;
 }
 
 .form-floating {
@@ -62,7 +64,7 @@ form {
 }
 
 .btn {
-    width: 40vw;
+    width: 36vw;
     height: 40px;
     background-color: #FCA60F !important;
     color: white !important;
