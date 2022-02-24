@@ -5,6 +5,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom 10px left -80px, top 70px right -80px;
+    margin: 0;
 }
 
 nav {
@@ -13,12 +14,13 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin-top: 15px;
-    margin-bottom: 60px;
+    margin-bottom: 90px;
     padding-bottom: 25px;
     border-bottom: 1px solid #ebebeb;
 }
 
 .logo {
+    display: flex;
     margin-left: 120px;
 }
 

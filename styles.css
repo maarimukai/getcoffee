@@ -4,7 +4,8 @@ body {
     background-size: 30%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: bottom 20px left -120px, top 70px right -120px;
+    background-position: bottom 10px left -80px, top 70px right -80px;
+    margin: 0;
 }
 
 nav {
@@ -74,20 +75,6 @@ main {
     margin-left: 4rem;
 }
 
-.textscroll {
-    font-size: 16px;
-    text-align: center;
-    margin-top: 7rem;
-    margin-bottom: 10px;
-}
-
-.imgscroll {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
 /* mobile */
 @media (max-width: 480px) {
     body {
@@ -156,9 +143,5 @@ main {
         display: flex;
         justify-content: center;
         margin-top: 250px;
-    }
-
-    section {
-        display: none;
     }
 }
