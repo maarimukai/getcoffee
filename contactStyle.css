@@ -55,7 +55,16 @@ form {
 
 .NamesForms {
     display: flex;
-    width: 500px;
+    align-items: center;
+}
+
+.ipt-firstName {
+    width: 225px !important;
+    margin-right: 10px;
+}
+.ipt-lastName {
+    width: 225px !important;
+    margin-left: 10px;
 }
 
 .form-floating {
