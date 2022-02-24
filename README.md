@@ -11,7 +11,7 @@
 <p>O desafio era fazer a tela inicial, porém ficava livre se quisesse fazer as outras páginas (menu, contact e find us), e como eu queria aperfeiçoar meus conhecimentos de HTML e CSS, acabei desenvolvendo as outras páginas dessa LP também.</p>
 <br>
 <img alt="getcoffee-menu" src="./design/getcoffee-2.png">
-  <legend>Página Menu - Cardápio  </legend>
+ <legend>Página Menu - Cardápio  </legend>
 <br>
 <br>
 <br>
