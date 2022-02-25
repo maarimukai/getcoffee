@@ -128,6 +128,11 @@ form {
         flex-direction: column;
     }
 
+    .ipt-firstName, .ipt-lastName {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
     .form-control {
         width: 80vw !important;
     }
